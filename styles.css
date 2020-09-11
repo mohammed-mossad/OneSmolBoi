@@ -1,0 +1,69 @@
+body
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding:20px;
+	font-size: 25px;
+
+}
+.logo
+{
+
+	height: 20px;width: 20px;
+}
+
+h3
+{
+	font-size: 50px;
+	margin:10px 10px 10px 10px;
+	color:white;
+}
+.big
+{
+	font-size: 200px;
+}
+.foot
+{
+	display: inline-block;
+}
+
+.container
+ {
+  position: relative;
+  width: 100%;
+  padding:25px;
+  background-image: url("bkg.jpg");
+  background-size: cover;
+  max-width: 100%;
+  max-height: auto;
+}
+.overlay
+ {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay
+ {
+  width: 100%;
+}
+
+.text
+ {
+  white-space: nowrap; 
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
